@@ -1,19 +1,52 @@
-.frontpage {
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.container {
     display: flex;
-    justify-content: right;
-    width: 15em;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.frontpage {
+    width: 722px;
+    height: 417px;
     border: 1px solid #333333;
     box-shadow: 6px 6px 5px #444444;
     padding: 8px 12px;
-    background-image: linear-gradient(180deg, white, #dddddd 40%, #cccccc)
-    
-
+    background-image: linear-gradient(180deg, white, #dddddd 40%, #cccccc);
+    position: absolute;
+    top: 52%;
+    left: 0.4%;
+    border: 1px solid black;  
 }
-
 .navigation {
     width: 15em;
     border: 1px solid #333333;
     box-shadow: 6px 6px 5px #444444;
     padding: 8px 12px;
-    background-image: linear-gradient(180deg, white, #dddddd 40%, #cccccc)
+    background-image: linear-gradient(180deg, white, #dddddd 40%, #cccccc);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 1px solid black;
 }
+
+.form {
+    width: 15em;
+    border: 1px solid #333333;
+    box-shadow: 6px 6px 5px #444444;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, white, #dddddd 40%, #cccccc);
+    position: absolute;
+    top: 24%;
+    left: 0.5%;
+    border: 1px solid black;
+}
+
+html {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
