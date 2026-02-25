@@ -9,11 +9,11 @@ app.post('/', (req, res) => {
     res.send('HTTP request: POST /');
 });
 
-app.put('/:id', (req, res) => {
+app.put('/', (req, res) => {
     res.send('HTTP request: PUT /');
 });
 
-app.delete('/:id', (req, res) => {
+app.delete('/', (req, res) => {
     res.send('HTTP request: DELETE /');
 });
 
