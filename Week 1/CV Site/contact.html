@@ -6,19 +6,26 @@
     </head>
     <body>
         <h1>Contact Menu</h1>
-        <div class="navigation">
-            <a href="file:///csse/users/ige22/Desktop/SENG365/Week%201/CV%20Site/frontpage.html">Home</a>
-            <a href="file:///csse/users/ige22/Desktop/SENG365/Week%201/CV%20Site/education.html">Education</a>
-            <a href="file:///csse/users/ige22/Desktop/SENG365/Week%201/CV%20Site/experience.html">Experience</a>  
+        <div class="container">
+            <div class="frontpage">
+                <p>Feel free to contact me using the form above, or by emailing me at ige22@uclive.ac.nz</p>
+            </div>
+            <div class="navigation">
+                <a href="frontpage.html">Home</a>
+                <a href="education.html">Education</a>
+                <a href="experience.html">Experience</a>  
+            </div>
+            <div class="form">
+                <form method=POST action="mailto:ige22@uclive.ac.nz">
+                Enter your name: <input type="text" name="name" /><br />
+                Enter your email: <input type="email" name="email" /><br />
+                Enter your message:<br />
+                <textarea name="message" rows="5">
+                </textarea>
+                <br />
+                <input type="submit" value="Send" />
+                </form>
+            </div>
         </div>
-        <form method=POST action="mailto:ige22@uclive.ac.nz">
-        Enter your name: <input type="text" name="name" /><br />
-        Enter your email: <input type="email" name="email" /><br />
-        Enter your message:<br />
-        <textarea name="message" rows="5">
-        </textarea>
-        <br />
-        <input type="submit" value="Send" />
-        </form>
     </body>
 </html>
